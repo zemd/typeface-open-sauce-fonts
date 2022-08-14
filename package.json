@@ -1,0 +1,27 @@
+{
+  "name": "@zemd/typeface-open-sauce-fonts",
+  "version": "0.0.0-development",
+  "description": "Self-host the Open Sauce fonts in a neatly bundled NPM package.",
+  "type": "module",
+  "exports": {
+    "/styles/*": "./styles/*"
+  },
+  "keywords": ["font", "font family", "open sauce", "typeface"],
+  "author": "Dmytro Zelenetskyi <dmytro.zelenetskyi@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/zemd/typeface-open-sauce-fonts#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zemd/typeface-open-sauce-fonts.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "release": {
+    "branches": ["main"]
+  }
+}
