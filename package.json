@@ -14,6 +14,9 @@
     "type": "git",
     "url": "https://github.com/zemd/typeface-open-sauce-fonts.git"
   },
+  "scripts": {
+    "semantic-release": "semantic-release --debug"
+  },
   "devDependencies": {
     "semantic-release": "^19.0.3"
   },
