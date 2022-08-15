@@ -4,7 +4,8 @@
   "description": "Self-host the Open Sauce fonts in a neatly bundled NPM package.",
   "type": "module",
   "exports": {
-    "./styles/*": "./styles/*"
+    "./styles/*": "./styles/*",
+    "./files/*": "./files/*"
   },
   "keywords": ["font", "font family", "open sauce", "typeface"],
   "author": "Dmytro Zelenetskyi <dmytro.zelenetskyi@gmail.com>",
